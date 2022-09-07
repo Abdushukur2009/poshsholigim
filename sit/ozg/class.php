@@ -186,6 +186,7 @@ endforeach
                       required="required"
                       name="name"
                       id="name"
+                      value="Jo'rabek"
                     />
                   </div>
                   <div class="form-group">
@@ -196,6 +197,7 @@ endforeach
                       required="required"
                       name="nameb"
                       id="nameb"
+                      value="Abdushukur"
                     />
                   </div>
                   <div class="form-group">
@@ -206,6 +208,7 @@ endforeach
                       required="required"
                       name="famb"
                       id="famb"
+                      value="Yusupov"
                     />
                   </div>
                   <div class="form-group">
@@ -216,6 +219,7 @@ endforeach
                       required="required"
                       name="fam"
                       id="fam"
+                      value="Yusupov"
                     />
                   </div>
                   <div class="form-group">
@@ -226,6 +230,7 @@ endforeach
                       required="required"
                       name="email"
                       id="email"
+                      value=""
                     />
  <p class='d- text-danger' id="p"></p>
  
@@ -236,6 +241,7 @@ endforeach
                       required="required"
                       name="parol"
                       id="parol"
+                      value=""
                     />
                     <input 
                       type="number"
@@ -244,6 +250,7 @@ endforeach
                       id="yu" 
                       class="form-control mb-3"
                       required="required"
+                      value="4"
                       >
                     <input 
                       type="file"

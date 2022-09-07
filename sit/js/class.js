@@ -29,17 +29,14 @@ function s(v) {
 $('#form').on('submit',function(as){
 as.preventDefault()
 let b =$('#file')
-    let u={
-        'name':$('#name').val(),'nameb':$('#nameb').val(),"fam":$('#fam').val(),'famb':$('#famb').val(),
-        
-        'email':$('#email').val(),'parol':$('#parol').val(),'num':$('#yu').val(),'jins':$('#jins').val(),'text':$('#text').val()};
-log(u,b)
+    let u=$(this).serialize();
+log(u)
 })
-function log(u,b) {
+function log(u) {
     $.ajax({
         url:'sit/js/hc.php',
         type:"POST",
-        data:{'btn':u,'b':b},
+        data:u,
         success:function(as) {
             console.log(as)
         }
